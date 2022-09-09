@@ -38,7 +38,7 @@ Renderer::~Renderer() {
     SDL_Quit();
 }
 
-void Renderer::Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bullet>> const &bullets) {
+void Renderer::Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bullet>> const &bullets, GlobalOffensive const &go) {
     SDL_Rect block;
     block.w = _screen_width / _grid_width;
     block.h = _screen_height / _grid_height;
@@ -61,6 +61,32 @@ void Renderer::Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bul
         block.x = bullet->pos_x * block.w;
         block.y = bullet->pos_y * block.h;
         SDL_RenderFillRect(_renderer, &block);
+    }
+
+    //Rendering the global offensive
+    SDL_SetRenderDrawColor(_renderer, 0xFF, 0xFF, 0xFF, 0xFF);
+    for(auto const &squid : go._squids) {
+        for(auto const &squidpoint : squid->_body) {
+            block.x = squidpoint.x * block.w;
+            block.y = squidpoint.y * block.h;
+            SDL_RenderFillRect(_renderer, &block);
+        }
+    }
+    
+    for(auto const &crab: go._crabs) {
+        for(auto const &crabpoint : crab->_body) {
+            block.x = crabpoint.x * block.w;
+            block.y = crabpoint.y * block.h;
+            SDL_RenderFillRect(_renderer, &block);
+        }
+    }
+
+    for(auto const &octo: go._octos) {
+        for(auto const &octopoint : octo->_body) {
+            block.x = octopoint.x * block.w;
+            block.y = octopoint.y * block.h;
+            SDL_RenderFillRect(_renderer, &block);
+        }
     }
 
     //Update Screen

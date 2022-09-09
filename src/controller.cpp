@@ -18,6 +18,7 @@ void Controller::HandleInput(bool &running, Spaceship &spaceship, std::vector<st
 
             case SDLK_SPACE:
                 std::shared_ptr<Bullet> newBullet = std::make_shared<Bullet>(spaceship.pos_x, BULLETS_STARTING_POS);
+                newBullet->simulate();
                 bullets.emplace_back(std::move(newBullet));
                 break;
             }

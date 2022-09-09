@@ -4,6 +4,7 @@
 #include <SDL2/SDL.h>
 #include "spaceship.h"
 #include "bullet.h"
+#include "globaloffensive.h"
 
 class Renderer {
 public:
@@ -12,7 +13,7 @@ public:
     Renderer(const std::size_t screen_width, const std::size_t screen_height, const std::size_t grid_width, const std::size_t grid_height);
     ~Renderer();
 
-    void Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bullet>> const &bullets);
+    void Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bullet>> const &bullets, GlobalOffensive const &go);
     void updateWindowTitle();
 
 private:
