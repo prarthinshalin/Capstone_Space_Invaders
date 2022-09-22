@@ -231,32 +231,32 @@ src/crab.cpp.s:
 	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/crab.cpp.s
 .PHONY : src/crab.cpp.s
 
-src/globaloffensive.o: src/globaloffensive.cpp.o
+src/global_offensive.o: src/global_offensive.cpp.o
 
-.PHONY : src/globaloffensive.o
+.PHONY : src/global_offensive.o
 
 # target to build an object file
-src/globaloffensive.cpp.o:
-	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o
-.PHONY : src/globaloffensive.cpp.o
+src/global_offensive.cpp.o:
+	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o
+.PHONY : src/global_offensive.cpp.o
 
-src/globaloffensive.i: src/globaloffensive.cpp.i
+src/global_offensive.i: src/global_offensive.cpp.i
 
-.PHONY : src/globaloffensive.i
+.PHONY : src/global_offensive.i
 
 # target to preprocess a source file
-src/globaloffensive.cpp.i:
-	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.i
-.PHONY : src/globaloffensive.cpp.i
+src/global_offensive.cpp.i:
+	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.i
+.PHONY : src/global_offensive.cpp.i
 
-src/globaloffensive.s: src/globaloffensive.cpp.s
+src/global_offensive.s: src/global_offensive.cpp.s
 
-.PHONY : src/globaloffensive.s
+.PHONY : src/global_offensive.s
 
 # target to generate assembly for a file
-src/globaloffensive.cpp.s:
-	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.s
-.PHONY : src/globaloffensive.cpp.s
+src/global_offensive.cpp.s:
+	$(MAKE) -f CMakeFiles/Space_Invaders.dir/build.make CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.s
+.PHONY : src/global_offensive.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -414,9 +414,9 @@ help:
 	@echo "... src/crab.o"
 	@echo "... src/crab.i"
 	@echo "... src/crab.s"
-	@echo "... src/globaloffensive.o"
-	@echo "... src/globaloffensive.i"
-	@echo "... src/globaloffensive.s"
+	@echo "... src/global_offensive.o"
+	@echo "... src/global_offensive.i"
+	@echo "... src/global_offensive.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,6 +1,6 @@
 #include "controller.h"
 
-void Controller::HandleInput(bool &running, Spaceship &spaceship, std::vector<std::shared_ptr<Bullet>> &bullets) {
+void Controller::HandleInput(bool &running, Spaceship &spaceship) {
     SDL_Event e;
     while(SDL_PollEvent(&e)) {
         if(e.type == SDL_QUIT) {
@@ -17,9 +17,7 @@ void Controller::HandleInput(bool &running, Spaceship &spaceship, std::vector<st
                 break;
 
             case SDLK_SPACE:
-                std::shared_ptr<Bullet> newBullet = std::make_shared<Bullet>(spaceship.pos_x, BULLETS_STARTING_POS);
-                newBullet->simulate();
-                bullets.emplace_back(std::move(newBullet));
+                spaceship.FireBullet();
                 break;
             }
         }

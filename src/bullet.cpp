@@ -2,7 +2,7 @@
 #include <thread>
 
 void Bullet::Update() {
-    pos_y -= 1;
+    pos_y -= 2;
 }
 
 void Bullet::simulate() {
@@ -30,6 +30,10 @@ void Bullet::fire() {
 
         if(frame_duration < kMsPerFrame) {
             SDL_Delay(kMsPerFrame - frame_duration);
+        }
+
+        if(pos_y <= 0) {
+            inScope = false;
         }
     }
 }

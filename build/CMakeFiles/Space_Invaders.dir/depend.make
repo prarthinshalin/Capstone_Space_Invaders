@@ -7,6 +7,7 @@ CMakeFiles/Space_Invaders.dir/src/alien.cpp.o: ../src/alien.h
 CMakeFiles/Space_Invaders.dir/src/bullet.cpp.o: ../src/bullet.cpp
 CMakeFiles/Space_Invaders.dir/src/bullet.cpp.o: ../src/bullet.h
 
+CMakeFiles/Space_Invaders.dir/src/controller.cpp.o: ../src/MessageQueue.h
 CMakeFiles/Space_Invaders.dir/src/controller.cpp.o: ../src/bullet.h
 CMakeFiles/Space_Invaders.dir/src/controller.cpp.o: ../src/controller.cpp
 CMakeFiles/Space_Invaders.dir/src/controller.cpp.o: ../src/controller.h
@@ -16,18 +17,19 @@ CMakeFiles/Space_Invaders.dir/src/crab.cpp.o: ../src/alien.h
 CMakeFiles/Space_Invaders.dir/src/crab.cpp.o: ../src/crab.cpp
 CMakeFiles/Space_Invaders.dir/src/crab.cpp.o: ../src/crab.h
 
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/alien.h
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/crab.h
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/globaloffensive.cpp
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/globaloffensive.h
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/octopus.h
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/squid.h
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/alien.h
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/crab.h
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/global_offensive.cpp
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/global_offensive.h
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/octopus.h
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/squid.h
 
+CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/MessageQueue.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/alien.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/bullet.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/controller.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/crab.h
-CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/globaloffensive.h
+CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/global_offensive.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/octopus.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/renderer.h
@@ -38,16 +40,19 @@ CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o: ../src/alien.h
 CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o: ../src/octopus.cpp
 CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o: ../src/octopus.h
 
+CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/MessageQueue.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/alien.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/bullet.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/crab.h
-CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/globaloffensive.h
+CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/global_offensive.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/octopus.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/renderer.cpp
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/renderer.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/spaceship.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o: ../src/squid.h
 
+CMakeFiles/Space_Invaders.dir/src/spaceship.cpp.o: ../src/MessageQueue.h
+CMakeFiles/Space_Invaders.dir/src/spaceship.cpp.o: ../src/bullet.h
 CMakeFiles/Space_Invaders.dir/src/spaceship.cpp.o: ../src/spaceship.cpp
 CMakeFiles/Space_Invaders.dir/src/spaceship.cpp.o: ../src/spaceship.h
 

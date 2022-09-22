@@ -161,18 +161,18 @@ CMakeFiles/Space_Invaders.dir/src/octopus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Invaders.dir/src/octopus.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/Space_Invaders/src/octopus.cpp -o CMakeFiles/Space_Invaders.dir/src/octopus.cpp.s
 
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: CMakeFiles/Space_Invaders.dir/flags.make
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o: ../src/globaloffensive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/Space_Invaders/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o -c /home/workspace/Space_Invaders/src/globaloffensive.cpp
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: CMakeFiles/Space_Invaders.dir/flags.make
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o: ../src/global_offensive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/Space_Invaders/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o -c /home/workspace/Space_Invaders/src/global_offensive.cpp
 
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/Space_Invaders/src/globaloffensive.cpp > CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.i
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/Space_Invaders/src/global_offensive.cpp > CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.i
 
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/Space_Invaders/src/globaloffensive.cpp -o CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.s
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/Space_Invaders/src/global_offensive.cpp -o CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.s
 
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: CMakeFiles/Space_Invaders.dir/flags.make
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o: ../src/main.cpp
@@ -197,7 +197,7 @@ Space_Invaders_OBJECTS = \
 "CMakeFiles/Space_Invaders.dir/src/squid.cpp.o" \
 "CMakeFiles/Space_Invaders.dir/src/crab.cpp.o" \
 "CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o" \
-"CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o" \
+"CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o" \
 "CMakeFiles/Space_Invaders.dir/src/main.cpp.o"
 
 # External object files for target Space_Invaders
@@ -211,7 +211,7 @@ Space_Invaders: CMakeFiles/Space_Invaders.dir/src/alien.cpp.o
 Space_Invaders: CMakeFiles/Space_Invaders.dir/src/squid.cpp.o
 Space_Invaders: CMakeFiles/Space_Invaders.dir/src/crab.cpp.o
 Space_Invaders: CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o
-Space_Invaders: CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o
+Space_Invaders: CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o
 Space_Invaders: CMakeFiles/Space_Invaders.dir/src/main.cpp.o
 Space_Invaders: CMakeFiles/Space_Invaders.dir/build.make
 Space_Invaders: CMakeFiles/Space_Invaders.dir/link.txt

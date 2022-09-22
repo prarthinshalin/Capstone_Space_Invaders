@@ -11,10 +11,10 @@
 
 enum AlienType {
     noAlien,
-    Squid,
-    Crab,
-    Octopus,
-    UFO
+    kSquid,
+    kCrab,
+    kOctopus,
+    kUFO
 };
 
 class Alien {
@@ -25,6 +25,8 @@ public:
     bool isAlive();
     void setPosition(double x, double y);
     void getPosition(double &x, double &y);
+    void shiftHorizontal(const double step_size);
+    void shiftVertical(const double step_size);
     AlienType getAlienType();
 
     //typical behaviour methods

@@ -15,6 +15,6 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS} src)
 
-add_executable(Space_Invaders src/renderer.cpp src/spaceship.cpp src/controller.cpp src/bullet.cpp src/alien.cpp src/squid.cpp src/crab.cpp src/octopus.cpp src/globaloffensive.cpp src/main.cpp)
+add_executable(Space_Invaders src/renderer.cpp src/spaceship.cpp src/controller.cpp src/bullet.cpp src/alien.cpp src/squid.cpp src/crab.cpp src/octopus.cpp src/global_offensive.cpp src/main.cpp)
 string(STRIP ${SDL2_LIBRARIES} SDL2_LIBRARIES)
 target_link_libraries(Space_Invaders ${SDL2_LIBRARIES})

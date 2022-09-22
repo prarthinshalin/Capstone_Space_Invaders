@@ -48,3 +48,16 @@ void Alien::bodySetup(const std::string &path) {
         }
     } else { std::cout << "File could not be opened!\n"; }
 }
+
+void Alien::shiftHorizontal(const double step_size) {
+    //Shifting all the SDL points of the body by the step size
+    for(auto &body_point : _body) {
+        body_point.x += step_size;
+    }
+}
+
+void Alien::shiftVertical(const double step_size) {
+    for(auto &body_point : _body) {
+        body_point.y += step_size;
+    }
+}

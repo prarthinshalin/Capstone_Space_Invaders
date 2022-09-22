@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/workspace/Space_Invaders/src/bullet.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/bullet.cpp.o"
   "/home/workspace/Space_Invaders/src/controller.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/controller.cpp.o"
   "/home/workspace/Space_Invaders/src/crab.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/crab.cpp.o"
-  "/home/workspace/Space_Invaders/src/globaloffensive.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o"
+  "/home/workspace/Space_Invaders/src/global_offensive.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o"
   "/home/workspace/Space_Invaders/src/main.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/main.cpp.o"
   "/home/workspace/Space_Invaders/src/octopus.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o"
   "/home/workspace/Space_Invaders/src/renderer.cpp" "/home/workspace/Space_Invaders/build/CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o"

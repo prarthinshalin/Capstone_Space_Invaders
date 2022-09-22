@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/workspace/Space_Invaders/src/MessageQueue.h
+deque
+-
+mutex
+-
+condition_variable
+-
+
 /home/workspace/Space_Invaders/src/alien.h
 SDL2/SDL.h
 -
@@ -29,6 +37,12 @@ vector
 -
 thread
 -
+iostream
+-
+
+/home/workspace/Space_Invaders/src/controller.cpp
+controller.h
+/home/workspace/Space_Invaders/src/controller.h
 
 /home/workspace/Space_Invaders/src/controller.h
 spaceship.h
@@ -44,14 +58,10 @@ alien.h
 string
 /home/workspace/Space_Invaders/src/string
 
-/home/workspace/Space_Invaders/src/globaloffensive.cpp
-globaloffensive.h
-/home/workspace/Space_Invaders/src/globaloffensive.h
-
-/home/workspace/Space_Invaders/src/globaloffensive.h
+/home/workspace/Space_Invaders/src/global_offensive.h
 vector
 -
-memory
+SDL2/SDL.h
 -
 squid.h
 /home/workspace/Space_Invaders/src/squid.h
@@ -67,10 +77,8 @@ renderer.h
 /home/workspace/Space_Invaders/src/renderer.h
 controller.h
 /home/workspace/Space_Invaders/src/controller.h
-globaloffensive.h
-/home/workspace/Space_Invaders/src/globaloffensive.h
-thread
--
+global_offensive.h
+/home/workspace/Space_Invaders/src/global_offensive.h
 
 /home/workspace/Space_Invaders/src/octopus.h
 alien.h
@@ -91,14 +99,24 @@ spaceship.h
 /home/workspace/Space_Invaders/src/spaceship.h
 bullet.h
 /home/workspace/Space_Invaders/src/bullet.h
-globaloffensive.h
-/home/workspace/Space_Invaders/src/globaloffensive.h
+global_offensive.h
+/home/workspace/Space_Invaders/src/global_offensive.h
+
+/home/workspace/Space_Invaders/src/spaceship.cpp
+spaceship.h
+/home/workspace/Space_Invaders/src/spaceship.h
 
 /home/workspace/Space_Invaders/src/spaceship.h
 SDL2/SDL.h
 -
-vector
+deque
 -
+chrono
+-
+bullet.h
+/home/workspace/Space_Invaders/src/bullet.h
+MessageQueue.h
+/home/workspace/Space_Invaders/src/MessageQueue.h
 
 /home/workspace/Space_Invaders/src/squid.h
 alien.h

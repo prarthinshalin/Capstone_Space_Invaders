@@ -7,7 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Space_Invaders.dir/src/squid.cpp.o"
   "CMakeFiles/Space_Invaders.dir/src/crab.cpp.o"
   "CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o"
-  "CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o"
+  "CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o"
   "CMakeFiles/Space_Invaders.dir/src/main.cpp.o"
   "Space_Invaders.pdb"
   "Space_Invaders"

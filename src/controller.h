@@ -9,7 +9,7 @@
 
 class Controller {
 public:
-    void HandleInput(bool &running, Spaceship &shaceship, std::vector<std::shared_ptr<Bullet>> &bullets);
+    void HandleInput(bool &running, Spaceship &shaceship);
 
 private:
 };

@@ -38,7 +38,7 @@ Renderer::~Renderer() {
     SDL_Quit();
 }
 
-void Renderer::Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bullet>> const &bullets, GlobalOffensive const &go) {
+void Renderer::Render(Spaceship const spaceship, GlobalOffensive const &go) {
     SDL_Rect block;
     block.w = _screen_width / _grid_width;
     block.h = _screen_height / _grid_height;
@@ -57,7 +57,7 @@ void Renderer::Render(Spaceship const spaceship, std::vector<std::shared_ptr<Bul
 
     //Rendering the bullets
     SDL_SetRenderDrawColor(_renderer, 0xFF, 0xFF, 0xFF, 0xFF);
-    for(auto const &bullet : bullets) {
+    for(auto const &bullet : spaceship._bullets) {
         block.x = bullet->pos_x * block.w;
         block.y = bullet->pos_y * block.h;
         SDL_RenderFillRect(_renderer, &block);

@@ -8,6 +8,7 @@ CMakeFiles/Space_Invaders.dir/src/bullet.cpp.o
  /home/workspace/Space_Invaders/src/bullet.cpp
  /home/workspace/Space_Invaders/src/bullet.h
 CMakeFiles/Space_Invaders.dir/src/controller.cpp.o
+ /home/workspace/Space_Invaders/src/MessageQueue.h
  /home/workspace/Space_Invaders/src/bullet.h
  /home/workspace/Space_Invaders/src/controller.cpp
  /home/workspace/Space_Invaders/src/controller.h
@@ -16,19 +17,20 @@ CMakeFiles/Space_Invaders.dir/src/crab.cpp.o
  /home/workspace/Space_Invaders/src/alien.h
  /home/workspace/Space_Invaders/src/crab.cpp
  /home/workspace/Space_Invaders/src/crab.h
-CMakeFiles/Space_Invaders.dir/src/globaloffensive.cpp.o
+CMakeFiles/Space_Invaders.dir/src/global_offensive.cpp.o
  /home/workspace/Space_Invaders/src/alien.h
  /home/workspace/Space_Invaders/src/crab.h
- /home/workspace/Space_Invaders/src/globaloffensive.cpp
- /home/workspace/Space_Invaders/src/globaloffensive.h
+ /home/workspace/Space_Invaders/src/global_offensive.cpp
+ /home/workspace/Space_Invaders/src/global_offensive.h
  /home/workspace/Space_Invaders/src/octopus.h
  /home/workspace/Space_Invaders/src/squid.h
 CMakeFiles/Space_Invaders.dir/src/main.cpp.o
+ /home/workspace/Space_Invaders/src/MessageQueue.h
  /home/workspace/Space_Invaders/src/alien.h
  /home/workspace/Space_Invaders/src/bullet.h
  /home/workspace/Space_Invaders/src/controller.h
  /home/workspace/Space_Invaders/src/crab.h
- /home/workspace/Space_Invaders/src/globaloffensive.h
+ /home/workspace/Space_Invaders/src/global_offensive.h
  /home/workspace/Space_Invaders/src/main.cpp
  /home/workspace/Space_Invaders/src/octopus.h
  /home/workspace/Space_Invaders/src/renderer.h
@@ -39,16 +41,19 @@ CMakeFiles/Space_Invaders.dir/src/octopus.cpp.o
  /home/workspace/Space_Invaders/src/octopus.cpp
  /home/workspace/Space_Invaders/src/octopus.h
 CMakeFiles/Space_Invaders.dir/src/renderer.cpp.o
+ /home/workspace/Space_Invaders/src/MessageQueue.h
  /home/workspace/Space_Invaders/src/alien.h
  /home/workspace/Space_Invaders/src/bullet.h
  /home/workspace/Space_Invaders/src/crab.h
- /home/workspace/Space_Invaders/src/globaloffensive.h
+ /home/workspace/Space_Invaders/src/global_offensive.h
  /home/workspace/Space_Invaders/src/octopus.h
  /home/workspace/Space_Invaders/src/renderer.cpp
  /home/workspace/Space_Invaders/src/renderer.h
  /home/workspace/Space_Invaders/src/spaceship.h
  /home/workspace/Space_Invaders/src/squid.h
 CMakeFiles/Space_Invaders.dir/src/spaceship.cpp.o
+ /home/workspace/Space_Invaders/src/MessageQueue.h
+ /home/workspace/Space_Invaders/src/bullet.h
  /home/workspace/Space_Invaders/src/spaceship.cpp
  /home/workspace/Space_Invaders/src/spaceship.h
 CMakeFiles/Space_Invaders.dir/src/squid.cpp.o

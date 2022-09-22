@@ -1,8 +1,7 @@
 #include <iostream>
 #include "renderer.h"
 #include "controller.h"
-#include "globaloffensive.h"
-#include <thread>
+#include "global_offensive.h"
 
 #define SPACESHIP_START_POS_X 160
 #define SPACESHIP_START_POS_Y 210
@@ -19,19 +18,18 @@ int main() {
     Uint32 frame_duration;
 
     Renderer renderer(640, 480, 320, 240);
+    std::cout << "This is working!\n";
     Spaceship spaceship(SPACESHIP_START_POS_X, SPACESHIP_START_POS_Y);
-    std::vector<std::shared_ptr<Bullet>> bullets;
     Controller controller;
-    GlobalOffensive go(grid_width, grid_width);
+    GlobalOffensive go;
 
-    
+    std::cout << "This is working!\n";
 
-    
     while(running) {
         frame_start = SDL_GetTicks();
 
-        controller.HandleInput(running, spaceship, bullets);
-        renderer.Render(spaceship, bullets, go);
+        controller.HandleInput(running, spaceship);
+        renderer.Render(spaceship, go);
 
         frame_end = SDL_GetTicks();
 
